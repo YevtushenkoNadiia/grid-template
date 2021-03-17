@@ -11,9 +11,3 @@
   }
 }
 
-
-@for $i from 1 through 6 {
-  .post-item:nth-of-type(#{$i}) {
-    grid-area: a#{$i};
-  }
-}
