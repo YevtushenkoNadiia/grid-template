@@ -1,9 +1,14 @@
 .posts__action {
-  display: flex;
   align-items: center;
   justify-content: center;
   margin-top: $gap;
-  margin-bottom: $gap * 5;
+  margin-bottom: $gap * 3;
+  @include md-min {
+    margin-bottom: $gap * 5;
+  }
+  @include sm-min {
+    display: flex;
+  }
 }
 
 

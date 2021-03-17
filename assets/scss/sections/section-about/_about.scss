@@ -4,14 +4,29 @@
 
   &__container {
     display: grid;
-    grid-template-columns: 1fr 280px;
-    gap: $gap * 5;
-    
     @extend %container;
     // max-height: 40.8rem;
     background-color: $color-gray-light;
     background-position: center;
     background-size: cover;
-    align-content: center;
+    grid-template-columns: 1fr 17.5rem;
+
+    @include lg-min {
+      grid-template-columns: 1fr 17.5rem;
+      gap: $gap * 5;
+    }
+    @include lg-md {
+      gap: $gap * 2;
+      grid-template-columns: 1fr 16.94rem;
+    }
+    @include md-sm {
+      gap: $gap * 2;
+      grid-template-columns: 1fr 14.75rem;
+    }
+    @include sm {
+      padding-top: $gap * 2;
+      padding-bottom: $gap * 2;
+      grid-template-columns: 1fr;
+    }
   }
 }

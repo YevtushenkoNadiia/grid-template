@@ -1,6 +1,5 @@
 .about__image {
   img {
-    margin-top: 6.81rem;
     max-height: 30rem;
     padding-left: 0.687rem;
   }
@@ -15,5 +14,30 @@
     content: "";
   
     background-color: rgba(99, 117, 136, 0.1);
+
+    @include lg-md {
+      display: none;
+    }  
+    @include md-sm {
+      display: none;
+    }  
+    @include sm {
+      display: none;
+    }
   }
+
+  @include md-min {
+    margin-top: 6.81rem;
+    }
+  @include md-sm {
+      display: grid;
+      align-content: center;
+      justify-items: center;
+    }  
+  @include sm {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    }
 }
+

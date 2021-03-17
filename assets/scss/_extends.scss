@@ -5,10 +5,11 @@
     padding-left: $gap;
 }
 %btn {
+    display: block;
     font-size: 1.125rem;
     color: $color-light;
     height: 3.75rem;
-    min-width: 26.25rem;
     padding: $gap ($gap / 2 * 3);
     line-height: 1.1;
+    width: 100%;
 }

@@ -15,7 +15,6 @@
     margin-bottom: 2.375rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
-
     &::after {
       position: absolute;
       content: "";
@@ -28,17 +27,13 @@
     a {
       display: block;
       padding: 10px 9.1px;
+      transition: color 0.5s;
       &:hover,
-      &.footer__social a:focus {
+      &:focus {
         color: $color-accent;
       }
     }
   }
-}
-
-.footer__social a:hover,
-.footer__social a:focus {
-  color: $color-accent;
 }
 
 .fab {

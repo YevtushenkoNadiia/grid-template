@@ -1,17 +1,42 @@
 .about-contant {
   &__title {
-    font-size: 2.5rem;
-    letter-spacing: 0.25rem;
-    line-height: 3rem;
     color: #2d3651;
     font-family: "Roboto Slab";
-    margin-top: 6.28rem;
-    margin-bottom: 3.5rem;
+
+    @include lg-min {
+      font-size: 2.5rem;
+      letter-spacing: 0.25rem;
+      line-height: 3rem;
+      margin-top: 6.28rem;
+      margin-bottom: 3.5rem;
+    }
+
+    @include lg-md {
+      font-size: 2rem;
+      line-height: 1.2em;
+      letter-spacing: 0.1em;
+      margin-top: 6.28rem;
+      margin-bottom: 3.5rem;
+    }
+
+    @include md-sm {
+      font-size: 1.5rem;
+      letter-spacing: 0.1em;
+      line-height: 1.2em;
+      margin-top: 3.5rem;
+      margin-bottom: 2.625rem;
+    }
+
+    @include sm {
+      text-align: center;
+      font-size: 1.5rem;
+      letter-spacing: 0.1em;
+      line-height: 1.2em;
+      font-family: $font-header;
+    }
   }
 
   &__text {
-    margin-top: -($gap / 4);
-    margin-bottom: 6.25rem;
     
     p{
       max-width: 58.5rem;
@@ -21,6 +46,31 @@
       line-height: 1.15;
       color: #637588;
       font-family: "Roboto", sans-serif;
+    }
+
+    @include lg-min {
+      margin-top: -($gap / 4);
+      margin-bottom: 6.25rem;
+    }
+
+    @include lg-md {
+      margin-top: -($gap / 4);
+      margin-bottom: 3.75rem;
+    }
+
+    @include md-sm {
+      font-size: 1.5rem;
+      letter-spacing: 0.1em;
+      line-height: 1.2em;
+      margin-bottom: 3.75rem;
+      margin-top: -($gap / 4);
+    }
+
+    @include sm {
+      font-size: 1.5rem;
+      letter-spacing: 0.1em;
+      line-height: 1.2em;
+      margin-top: 2.25rem;
     }
   }
 }
