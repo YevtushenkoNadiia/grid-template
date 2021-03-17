@@ -1,0 +1,48 @@
+.form {
+  position: relative;
+  padding: 30px 0;
+  background-color: $color-primary;
+  max-height: 120px;
+
+  &__container {
+    @extend %container;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $gap;
+  }
+}
+
+.form-item {
+  &__input {
+    @extend %btn;
+    letter-spacing: 0.15em;
+    border: 0.125rem solid rgba($color-light, 0);
+    border-bottom-color: rgba($color-light, 0.25);
+    background-color: rgba($color-light, 0.05);
+    &:hover,
+    &:focus {
+      background-color: rgba($color-light, 0.15);
+      border-color: rgba($color-light, 0.15);
+      border-bottom-color: $color-light;
+      transition: 0.5s;
+    }
+  }
+
+  &__btn {
+    @extend %btn;
+    letter-spacing: 0.1em;
+    border: 0.125rem solid rgba($color-light, 0);
+    border-bottom-color: rgba($color-light, 0.2);
+    background-color: rgba($color-light, 0.1);
+    &:hover,
+    &:focus {
+      background-color: $color-accent;
+      border-color: $color-light;
+      transition: 0.5s;
+    }
+  }
+}
+
+.form-item__input:hover::placeholder {
+  color: #8c9bab;
+}

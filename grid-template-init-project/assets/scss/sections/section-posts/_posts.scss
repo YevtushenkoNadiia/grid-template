@@ -1,0 +1,25 @@
+.posts {
+  position: relative;
+  overflow: hidden;
+
+  &__container {
+    background-color: $color-light;
+    @extend %container;
+    display: grid;
+  }
+  &__title {
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    color: $color-primary;
+    font-family: $font-header;
+    margin-top: 6.2rem;
+    margin-bottom: 3.5rem;
+  }
+  &__grid {
+    display: grid;
+    grid-template-areas: "a1 a1 a2 a3" "a4 a5 a6 a6";
+    gap: $gap;
+  }
+}
+

@@ -1,0 +1,19 @@
+.about__image {
+  img {
+    margin-top: 6.81rem;
+    max-height: 30rem;
+    padding-left: 0.687rem;
+  }
+  &::before {
+    position: absolute;
+    top: 15.25rem;
+    right: 24.625rem;
+  
+    width: $gap / 10;
+    height: $gap * 10;
+  
+    content: "";
+  
+    background-color: rgba(99, 117, 136, 0.1);
+  }
+}

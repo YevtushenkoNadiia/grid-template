@@ -1,0 +1,59 @@
+.footer {
+  background-color: $color-primary;  
+  text-align: center;
+
+  &__container {
+    background-color: $color-primary;
+    @extend %container;
+    min-height: 15.75rem;
+    padding-top: $gap / 2 * 5;
+  }
+
+  &__social {
+    position: relative;
+    justify-content: center;
+    margin-bottom: 2.375rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
+
+    &::after {
+      position: absolute;
+      content: "";
+      bottom: -$gap;
+      left: 38.28rem;
+      width: 4.69rem;
+      height: $gap / 10;
+      background-color: rgba($color-light, 0.1);
+    }
+    a {
+      display: block;
+      padding: 10px 9.1px;
+      &:hover,
+      &.footer__social a:focus {
+        color: $color-accent;
+      }
+    }
+  }
+}
+
+.footer__social a:hover,
+.footer__social a:focus {
+  color: $color-accent;
+}
+
+.fab {
+  font-size: 2.25rem;
+}
+
+.footer__copy span:nth-of-type(1) {
+  margin-right: -0.5em;
+  letter-spacing: 0.33em;
+  font-weight: 100;
+}
+
+.footer__copy span:nth-of-type(2) {
+  letter-spacing: 0.05em;
+  color: $color-gray-light;
+  font-weight: 700;
+}
+

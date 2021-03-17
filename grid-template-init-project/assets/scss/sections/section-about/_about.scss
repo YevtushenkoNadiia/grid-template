@@ -1,0 +1,17 @@
+.about {
+  position: relative;
+  background-color: $color-gray-light;
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: $gap * 5;
+    
+    @extend %container;
+    // max-height: 40.8rem;
+    background-color: $color-gray-light;
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+  }
+}
