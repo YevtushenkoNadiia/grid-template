@@ -844,6 +844,8 @@ a {
 .about__image img {
   max-height: 30rem;
   padding-left: 0.687rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .about__image::before {
@@ -1080,8 +1082,8 @@ a {
   position: absolute;
   content: "";
   bottom: -20px;
-  left: 38.28rem;
-  width: 4.69rem;
+  left: calc(50% - 75px / 2);
+  width: 75px;
   height: 2px;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -1326,7 +1328,7 @@ a {
         align-content: center;
     justify-items: center;
   }
-  .form__container .form__container {
+  .form__container {
     grid-template-columns: 1fr 1fr;
   }
   .form-item:nth-of-type(1) {

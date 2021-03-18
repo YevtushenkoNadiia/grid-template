@@ -8,14 +8,12 @@
     @extend %container;
     display: grid;
     gap: $gap;
-
+    
     @include md-min {
       grid-template-columns: repeat(3, 1fr);
     }
     @include md-sm {
-      .form__container {
-        grid-template-columns: 1fr 1fr;
-      }
+      grid-template-columns: 1fr 1fr;
     }
   }
 }
