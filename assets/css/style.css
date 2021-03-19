@@ -963,6 +963,7 @@ a {
 .posts__grid {
   display: grid;
   gap: 20px;
+  padding-bottom: 20px;
 }
 
 .post-item {
