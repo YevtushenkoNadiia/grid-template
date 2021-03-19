@@ -52,6 +52,10 @@
   }
 }
 
+.form-item__input::placeholder {
+  color: $color-gray;
+}
+
 .form-item__input:hover::placeholder {
   color: #8c9bab;
 }
