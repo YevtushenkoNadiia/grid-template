@@ -844,6 +844,7 @@ a {
   padding-left: 0.687rem;
   -o-object-fit: cover;
      object-fit: cover;
+  max-width: 100%;
 }
 
 .about__image::before {
