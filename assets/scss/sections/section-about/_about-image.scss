@@ -32,9 +32,9 @@
     margin-top: 6.81rem;
     }
   @include md-sm {
-      display: grid;
-      align-content: center;
-      justify-items: center;
+    display: grid;
+    align-content: center;
+    justify-items: center;
     }  
   @include sm {
     display: grid;

@@ -15,14 +15,17 @@
   }
 
   &__link {
+    height: 100%;
     display: grid;
     overflow: hidden;
-    grid-template-rows: 300px 238px;
+    // grid-template-rows: 300px 238px;
+    grid-template-rows: 300px 1fr;
   }
 
   &__image {
     display: flex;
     overflow: hidden;
+    align-content: center;
     justify-content: center;
     background-color: $color-primary;
     img {
@@ -34,8 +37,9 @@
   &__caption {
     display: grid;
     align-content: center;
-    padding-left: $gap;
-    padding-right: $gap;
+    padding: $gap;
+    // padding-left: $gap;
+    // padding-right: $gap;
   }
   &__title {
     display: block;
