@@ -32,6 +32,7 @@
       border-color: rgba($color-light, 0.15);
       border-bottom-color: $color-light;
       transition: 0.5s;
+      outline: none;
     }
   }
 
@@ -46,6 +47,7 @@
       background-color: $color-accent;
       border-color: $color-light;
       transition: 0.5s;
+      outline: none;
     }
   }
 }
