@@ -13,7 +13,7 @@
       grid-template-columns: repeat(3, 1fr);
     }
     @include md-sm {
-      grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
   }
 }

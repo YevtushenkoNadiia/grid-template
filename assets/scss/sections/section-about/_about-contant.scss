@@ -41,35 +41,38 @@
     p{
       max-width: 58.5rem;
       max-height: 19.94rem;
-      font-size: 1.125rem;
-      letter-spacing: 0.049em;
       line-height: 1.15;
       color: #637588;
-      font-family: "Roboto", sans-serif;
+      font-family: $font-main;
     }
 
     @include lg-min {
       margin-top: -($gap / 4);
       margin-bottom: 6.25rem;
+      font-size: 1.125rem;
+      letter-spacing: 0.049em;
     }
 
     @include lg-md {
-      margin-top: -($gap / 4);
+      font-size: 1rem;
+      letter-spacing: 0.055em;
+      lline-height: 1.15;
       margin-bottom: 3.75rem;
+      margin-top: -($gap / 4);
     }
 
     @include md-sm {
-      font-size: 1.5rem;
-      letter-spacing: 0.1em;
-      line-height: 1.2em;
+      font-size: 1rem;
+      letter-spacing: 0.055em;
+      lline-height: 1.15;
       margin-bottom: 3.75rem;
       margin-top: -($gap / 4);
     }
 
     @include sm {
-      font-size: 1.5rem;
-      letter-spacing: 0.1em;
-      line-height: 1.2em;
+      font-size: 1rem;
+      letter-spacing: 0.055em;
+      line-height: 1.15;
       margin-top: 2.25rem;
     }
   }
