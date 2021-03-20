@@ -1,14 +1,16 @@
 .about__image {
+  display: grid;
+  align-content: center;
+  justify-items: center;
   img {
     max-height: 30rem;
-    padding-left: 0.687rem;
-    object-fit: cover;
+    // padding-left: 0.687rem;
     max-width: 100%;
   }
   &::before {
     position: absolute;
     top: 15.25rem;
-    right: 24.625rem;
+    right: 21.38rem;
   
     width: 2px;
     height: 200px;
@@ -17,29 +19,19 @@
   
     background-color: rgba(99, 117, 136, 0.1);
 
+    @include lg-min {
+      right: 21.38rem;
+    }  
     @include lg-md {
-      display: none;
+      right: 19.3rem;
     }  
     @include md-sm {
-      display: none;
-    }  
+      right: 16.5rem;
+      top: 9rem;
+    } 
     @include sm {
       display: none;
     }
   }
-
-  @include md-min {
-    margin-top: 6.81rem;
-    }
-  @include md-sm {
-    display: grid;
-    align-content: center;
-    justify-items: center;
-    }  
-  @include sm {
-    display: grid;
-    align-content: center;
-    justify-items: center;
-    }
 }
 
