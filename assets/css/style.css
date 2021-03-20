@@ -1258,18 +1258,19 @@ a {
     font-size: 2rem;
     line-height: 1.2em;
     letter-spacing: 0.1em;
-    margin-top: 6.28rem;
-    margin-bottom: 3.5rem;
+    margin-top: 4.8rem;
+    margin-bottom: 2.7rem;
   }
   .about-contant__text {
     font-size: 1rem;
     letter-spacing: 0.055em;
     lline-height: 1.15;
-    margin-bottom: 3.75rem;
+    margin-bottom: 4.8rem;
     margin-top: -5px;
   }
   .about__image::before {
     right: 19.3rem;
+    top: 12rem;
   }
   .posts__title {
     margin-bottom: 2.625rem;
@@ -1337,15 +1338,15 @@ a {
     gap: 10px;
   }
   .about__container {
-    gap: 40px;
+    gap: 20px;
     grid-template-columns: 1fr 14.75rem;
   }
   .about-contant__title {
     font-size: 1.5rem;
     letter-spacing: 0.1em;
     line-height: 1.2em;
-    margin-top: 3.5rem;
-    margin-bottom: 2.625rem;
+    margin-top: 3.78rem;
+    margin-bottom: 2.2rem;
   }
   .about-contant__text {
     font-size: 1rem;
@@ -1408,6 +1409,7 @@ a {
     padding-top: 40px;
     padding-bottom: 40px;
     grid-template-columns: 1fr;
+    gap: 20px;
   }
   .about-contant__title {
     text-align: center;
@@ -1420,7 +1422,13 @@ a {
     font-size: 1rem;
     letter-spacing: 0.055em;
     line-height: 1.15;
-    margin-top: 2.25rem;
+    margin-top: 1.9rem;
+  }
+  .about__image {
+    margin-bottom: 2.25rem;
+  }
+  .about__image img {
+    margin: -1rem;
   }
   .about__image::before {
     display: none;
