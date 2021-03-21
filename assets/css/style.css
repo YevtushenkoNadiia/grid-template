@@ -1020,6 +1020,7 @@ a {
   -o-transition: transform 0.5s;
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
+  width: 100%;
 }
 
 .post-item__caption {
