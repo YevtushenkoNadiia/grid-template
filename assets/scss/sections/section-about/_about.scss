@@ -1,5 +1,5 @@
 .about {
-  position: relative;
+  // position: relative;
   background-color: $color-gray-light;
 
   &__container {
@@ -9,10 +9,9 @@
     background-color: $color-gray-light;
     background-position: center;
     background-size: cover;
-    grid-template-columns: 1fr 17.5rem;
 
     @include lg-min {
-      grid-template-columns: 1fr 17.5rem;
+      grid-template-columns: 1fr 16.94rem;
       gap: $gap * 5;
     }
     @include lg-md {

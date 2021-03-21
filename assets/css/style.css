@@ -814,7 +814,6 @@ a {
 }
 
 .about {
-  position: relative;
   background-color: #e5e5e5;
 }
 
@@ -823,7 +822,6 @@ a {
   background-color: #e5e5e5;
   background-position: center;
   background-size: cover;
-  grid-template-columns: 1fr 17.5rem;
 }
 
 .about-contant__title {
@@ -840,6 +838,7 @@ a {
 }
 
 .about__image {
+  position: relative;
   display: grid;
   -ms-flex-line-pack: center;
       align-content: center;
@@ -1210,7 +1209,7 @@ a {
     gap: 10px;
   }
   .about__container {
-    grid-template-columns: 1fr 17.5rem;
+    grid-template-columns: 1fr 16.94rem;
     gap: 100px;
   }
   .about-contant__title {
@@ -1227,7 +1226,7 @@ a {
     letter-spacing: 0.049em;
   }
   .about__image::before {
-    right: 21.38rem;
+    right: 19.98rem;
   }
   .posts__title {
     margin-bottom: 3.5rem;

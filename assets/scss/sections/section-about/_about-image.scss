@@ -1,4 +1,5 @@
 .about__image {
+  position: relative;
   display: grid;
   align-content: center;
   justify-items: center;
@@ -23,11 +24,10 @@
     height: 200px;
   
     content: "";
-  
     background-color: rgba(99, 117, 136, 0.1);
 
     @include lg-min {
-      right: 21.38rem;
+      right: 19.98rem;
     }  
     @include lg-md {
       right: 19.3rem;
