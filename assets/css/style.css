@@ -1340,7 +1340,7 @@ a {
   }
   .about__container {
     gap: 20px;
-    grid-template-columns: 1fr 14.75rem;
+    grid-template-columns: 1fr 236px;
   }
   .about-contant__title {
     font-size: 1.5rem;
@@ -1357,7 +1357,7 @@ a {
     margin-top: -5px;
   }
   .about__image::before {
-    right: 16.5rem;
+    right: 15.4rem;
     top: 9rem;
   }
   .form__container {

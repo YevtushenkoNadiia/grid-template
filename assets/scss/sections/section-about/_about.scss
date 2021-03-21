@@ -20,7 +20,7 @@
     }
     @include md-sm {
       gap: 20px;
-      grid-template-columns: 1fr 14.75rem;
+      grid-template-columns: 1fr 236px;
     }
     @include sm {
       padding-top: $gap * 2;
