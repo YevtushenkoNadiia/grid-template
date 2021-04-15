@@ -1,15 +1,15 @@
 %container {
-    max-width: $ul;
-    margin: auto;
-    padding-right: $gap;
-    padding-left: $gap;
+  max-width: $ul;
+  margin: auto;
+  padding-right: $gap;
+  padding-left: $gap;
 }
 %btn {
-    display: block;
-    font-size: 1.125rem;
-    color: $color-light;
-    height: 3.75rem;
-    padding: $gap ($gap / 2 * 3);
-    line-height: 1.1;
-    width: 100%;
+  display: block;
+  font-size: 1.125rem;
+  color: $color-light;
+  height: 3.75rem;
+  padding: $gap ($gap / 2 * 3);
+  line-height: 1.1;
+  width: 100%;
 }
